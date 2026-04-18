@@ -40,26 +40,26 @@ const Contact = () => {
 
   return (
     <section id="contact" className="my-12 scroll-mt-20">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6 border-b-4 border-red-500 inline-block pb-2">Contact Me</h2>
+      <h2 className="text-3xl font-bold text-white-800 mb-6 border-b-4 border-red-500 inline-block pb-2">Contact Me</h2>
       
       <div className="grid md:grid-cols-2 gap-8">
         <div>
           <h3 className="text-xl font-semibold mb-4">Get In Touch</h3>
-          <p className="text-gray-600 mb-6">
+          <p className="text-white-600 mb-6">
             Idk if these work maybe it will.
           </p>
           <div className="space-y-3">
             <div className="flex items-center gap-3">
               <span className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">📧</span>
-              <span className="text-gray-700">castillocaedy@gmail.com</span>
+              <span className="text-white-700">castillocaedy@gmail.com</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">📱</span>
-              <span className="text-gray-700">+63 9914693406</span>
+              <span className="text-white-700">+63 9914693406</span>
             </div>
             <div className="flex items-center gap-3">
               <span className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">📍</span>
-              <span className="text-gray-700">Bagiuo City, Philippines</span>
+              <span className="text-white-700">Bagiuo City, Philippines</span>
             </div>
           </div>
         </div>
