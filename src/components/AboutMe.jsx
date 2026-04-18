@@ -8,7 +8,7 @@ const AboutMe = () => {
           
         </div>
         <div className="flex-1">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
+          <h2 className="text-3xl font-bold text-white-800 mb-4">About Me</h2>
           <p className="text-lg text-gray-600 leading-relaxed">
             I am a 2nd year BSIT networking and security major, I am still learning to be proficient with my networking skills and the such. 
             I love to play online and offline games such ranging from competitive multiplayer games to physical trading card games, I also enjoy sisig and a anime with a great soundtrack.
