@@ -16,7 +16,7 @@ const Experience = () => {
 
   return (
     <section id="experience" className="my-12 scroll-mt-20">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6 border-b-4 border-purple-500 inline-block pb-2">Experience</h2>
+      <h2 className="text-3xl font-bold text-white-800 mb-6 border-b-4 border-purple-500 inline-block pb-2">Experience</h2>
       <div className="relative border-l-2 border-gray-300 ml-3 space-y-8">
         {experiences.map((job) => (
           <div key={job.id} className="ml-8 relative">

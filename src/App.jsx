@@ -84,7 +84,7 @@ function App() {
         </main>
 
         <footer className="bg-gray-800 text-white py-8 text-center">
-          <p>© 2024 Your Name. Built with React & Tailwind CSS.</p>
+          <p>© 2026 Caedy Castillo. Built with React & Tailwind CSS.</p>
         </footer>
       </div>
     </div>

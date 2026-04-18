@@ -15,7 +15,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="my-12 scroll-mt-20">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6 border-b-4 border-green-500 inline-block pb-2">Skills</h2>
+      <h2 className="text-3xl font-bold text-white-800 mb-6 border-b-4 border-green-500 inline-block pb-2">Skills</h2>
       
       <div className="flex gap-2 mb-6 flex-wrap">
         {['all', 'Education', 'Hobby'].map((cat) => (

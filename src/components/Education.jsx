@@ -23,7 +23,7 @@ const Education = () => {
   if (!educationList || educationList.length === 0) {
     return (
       <section id="education" className="my-12">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Education</h2>
+        <h2 className="text-3xl font-bold text-white-800 mb-6">Education</h2>
         <p>No education data available.</p>
       </section>
     );
