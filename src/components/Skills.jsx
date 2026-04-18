@@ -4,10 +4,10 @@ const Skills = () => {
   const [filter, setFilter] = useState('all');
 
   const skills = [
-    { name: "Networking", level: 15, category: "Barely Passing" },
-    { name: "Gaming", level: 70, category: "Sweaty Casual" },
-    { name: "Cooking", level: 20, category: "Doesn't burn the house down" },
-    { name: "Archery", level: 10, category: "Rookie" },
+    { name: "Networking", level: 15, category: "Education" },
+    { name: "Gaming", level: 70, category: "Hobby" },
+    { name: "Cooking", level: 20, category: "Hobby" },
+    { name: "Archery", level: 10, category: "Hobby" },
 
   ];
 
@@ -18,7 +18,7 @@ const Skills = () => {
       <h2 className="text-3xl font-bold text-gray-800 mb-6 border-b-4 border-green-500 inline-block pb-2">Skills</h2>
       
       <div className="flex gap-2 mb-6 flex-wrap">
-        {['all', 'frontend', 'backend', 'tools'].map((cat) => (
+        {['all', 'Education', 'Hobby'].map((cat) => (
           <button
             key={cat}
             onClick={() => setFilter(cat)}
