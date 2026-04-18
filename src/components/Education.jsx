@@ -31,7 +31,7 @@ const Education = () => {
 
   return (
     <section id="education" className="my-12 scroll-mt-20">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6 border-b-4 border-blue-500 inline-block pb-2">
+      <h2 className="text-3xl font-bold text-white-800 mb-6 border-b-4 border-blue-500 inline-block pb-2">
         Education
       </h2>
       
