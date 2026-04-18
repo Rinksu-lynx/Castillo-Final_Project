@@ -6,7 +6,7 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      company: "Honor's Ground Bagiuo",
+      company: "Honor's Ground Baguio",
       role: "Temporary Employee",
       period: "Every Bagiuo in Bloom",
       description: "I do whatever they need me to do",
