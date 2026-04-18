@@ -9,7 +9,6 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [activeSection, setActiveSection] = useState('about');
 
-  // Smooth scroll and section tracking
   useEffect(() => {
     const handleScroll = () => {
       const sections = ['about', 'education', 'experience', 'skills', 'contact'];
@@ -42,7 +41,6 @@ function App() {
     <div className={darkMode ? 'dark' : ''}>
       <div className="min-h-screen bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
         
-        {/* Navigation */}
         <nav className="fixed top-0 w-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-md shadow-sm z-50 transition-colors">
           <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -77,7 +75,6 @@ function App() {
           </div>
         </nav>
 
-        {/* Main Content */}
         <main className="max-w-6xl mx-auto px-6 pt-24 pb-12">
           <AboutMe />
           <Education />
@@ -86,7 +83,6 @@ function App() {
           <Contact />
         </main>
 
-        {/* Footer */}
         <footer className="bg-gray-800 text-white py-8 text-center">
           <p>© 2024 Your Name. Built with React & Tailwind CSS.</p>
         </footer>
