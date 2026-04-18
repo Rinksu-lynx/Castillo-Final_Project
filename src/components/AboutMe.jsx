@@ -5,7 +5,7 @@ const AboutMe = () => {
     <section id="about" className="my-12 scroll-mt-20">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <div className="w-48 h-48 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center text-white text-6xl shadow-lg">
-          👨‍💻
+          
         </div>
         <div className="flex-1">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
